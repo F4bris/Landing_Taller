@@ -1,0 +1,87 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+.mensaje-error {
+  color: red;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.mensaje-exito {
+  color: green;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.mensaje-final {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.check-icon {
+  font-size: 6rem;
+  color: green;
+  margin-bottom: 1rem;
+}
+
+.mensaje-final h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.check-icon {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
